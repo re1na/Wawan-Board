@@ -4,29 +4,6 @@
 
 <head>
 
-<style>
-
-h1 {
-
-  @font-face {
-
-    font-family: 'KOMIKASK';
-
-    src: url(https://github.com/re1na/Wawan-Board/blob/master/KOMIKASK.ttf) format('truetype');
-
-}
-
-p {
-
-  color: red;
-
-  font-family: courier;
-
-  font-size: 160%;
-
-}
-
-</style>
 
 </head>
 
