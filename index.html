@@ -1,11 +1,32 @@
 <html>
 <head>
+<style>
+  /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+iframe{
   
+  </style>  
 </head>
 <body>
 
-<h1>Wawan Board</h1>
-<p>Wawancara Senpai adalah Jalan Ninjaku.</p>
+<h1 text-align:center>Wawan Board</h1>
+<p text-align:center>Wawancara Senpai adalah Jalan Ninjaku.</p>
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRyrGffJKzNrI5Tt1z1YyILPB_hLD8KwXbWbG356sG1eD2NIIU73yo5TWZvW-opwBXcMYZMLJAreVEP/pubhtml?widget=true&amp;headers=false"></iframe>
 
